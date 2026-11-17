@@ -1,0 +1,32 @@
+# 炉石插件套件 —— 只跟踪源码、测试、工具和文档。
+# 构建产物、实机证据、安装包和任何本机运行状态都不进仓库。
+
+# 编译输出
+**/bin/
+**/obj/
+ArenaController/_publish-release/
+ArenaController/_publish-thin/
+ArenaController/publish-*/
+
+# 构建/交付产物
+artifacts/
+交付/
+*.zip
+*.log
+
+# 本机运行状态与敏感数据
+**/controller-settings.json
+**/arena-stats.json
+**/arena-runtime-state.json
+**/arena-box-bot.log
+**/boxai-*.json
+**/*.dpapi
+**/InstallBackups/
+
+# 编辑器/系统
+.vs/
+.idea/
+*.user
+*.suo
+Thumbs.db
+desktop.ini

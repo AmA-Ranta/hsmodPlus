@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationIcon>Assets\bath.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>hsmodPlus.Core</AssemblyName>
+    <RootNamespace>ArenaController</RootNamespace>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Shared\ConstructedStopContract.cs" Link="ConstructedStopContract.cs" />
+    <Compile Include="..\Shared\ArenaRunStopContract.cs" Link="ArenaRunStopContract.cs" />
+    <Compile Include="..\Shared\ControllerCommandContract.cs" Link="ControllerCommandContract.cs" />
+    <None Remove="Assets\bath-preview.png" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>hsmodPlus</AssemblyName>
+    <RootNamespace>HsmodPlus</RootNamespace>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <Platforms>AnyCPU</Platforms>
+    <ApplicationIcon>Assets\bath.ico</ApplicationIcon>
+    <ApplicationManifest>..\ArenaController\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="WPF-UI" Version="4.0.0" />
+    <Resource Include="Assets\bath.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArenaController\ArenaController.csproj" />
+  </ItemGroup>
+</Project>

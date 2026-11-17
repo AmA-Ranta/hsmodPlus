@@ -1,0 +1,10 @@
+{
+  "source": "2026-10-17 Sky read-only Battle.net accessibility observation; visible-child case exercises the reported modal",
+  "mainTitle": "战网",
+  "childAutomationId": "LoginWindow",
+  "childTitle": "战网登录",
+  "heading": "无法登录战网。",
+  "errorCode": "BLZBNTBNA00000A8D (1105)",
+  "gamePlayButtonName": "进入游戏: 炉石传说",
+  "gamePlayButtonEnabled": false
+}

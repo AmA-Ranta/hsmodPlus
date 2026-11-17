@@ -1,0 +1,12 @@
+{
+  "description": "Actual Box CaptureCallback event captured 2026-10-07; card-only payload, no credentials. Duplicate MEND_303 means two copies.",
+  "line": "2026-10-07T16:41:02.491 {\"type\":\"capture_debug\",\"pid\":23936,\"name\":\"onUpdateArenaRecommend\",\"source\":\"upstream\",\"script\":\"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImRpc2NhcmQiLCJ0eXBlIjoicmVmZXJlbmNlIiwiY2FyZCI6W3siY2FyZElkIjoiTUVORF8zMDMifSx7ImNhcmRJZCI6IkVEUl81MzAifSx7ImNhcmRJZCI6IlRMQ185ODcifSx7ImNhcmRJZCI6Ik1FTkRfMzAzIn0seyJjYXJkSWQiOiJFRFJfMDE0In1dfV19'), c => c.charCodeAt(0))))\"}",
+  "expectedBoxPid": 23936,
+  "expectedScriptHash": "9273FC0BF5992CCF287535B4E24C7FD8FCEB4A5AF3CA2C830987DFF71FE2D52A",
+  "expectedRemoveCounts": {
+    "MEND_303": 2,
+    "EDR_530": 1,
+    "TLC_987": 1,
+    "EDR_014": 1
+  }
+}

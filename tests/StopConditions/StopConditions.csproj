@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\ArenaController\Control\ConstructedStopPolicy.cs" Link="ConstructedStopPolicy.cs" />
+    <Compile Include="..\..\ArenaController\Control\ConstructedStopBoundary.cs" Link="ConstructedStopBoundary.cs" />
+    <Compile Include="..\..\ArenaController\Control\BoxOverlayPolicy.cs" Link="BoxOverlayPolicy.cs" />
+    <Compile Include="..\..\Shared\ConstructedStopContract.cs" Link="ConstructedStopContract.cs" />
+  </ItemGroup>
+</Project>

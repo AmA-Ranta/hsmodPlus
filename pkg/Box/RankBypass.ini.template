@@ -1,0 +1,7 @@
+[rank_bypass]
+EnableCollector=1
+CaptureCallback=onUpdateArenaRecommend
+EnableLog=1
+OutputDir={OUTPUT_DIR}
+# 留空表示不拦截任何盒子子进程；不要填写 0。
+BlockProcesses=

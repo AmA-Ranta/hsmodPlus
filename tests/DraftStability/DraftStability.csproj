@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\ArenaBoxBot\ArenaDraftVisualGate.cs" Link="ArenaDraftVisualGate.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDraftEntryPolicy.cs" Link="ArenaDraftEntryPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaRedraftPolicy.cs" Link="ArenaRedraftPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDraftPacing.cs" Link="ArenaDraftPacing.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaModeNavigationPolicy.cs" Link="ArenaModeNavigationPolicy.cs" />
+  </ItemGroup>
+</Project>

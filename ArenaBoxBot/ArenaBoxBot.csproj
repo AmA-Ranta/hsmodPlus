@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>ArenaBoxBot</AssemblyName>
+    <RootNamespace>ArenaBoxBot</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <!-- Reproducible plugin bytes: the release note records this DLL's
+         SHA256, so two builds from the same source must not differ. -->
+    <Deterministic>true</Deterministic>
+    <OutputPath>bin\Release\</OutputPath>
+    <!-- The live game is deliberately allowed to be pure.  Prefer its
+         BepInEx references when installed, otherwise build against the
+         maintained runtime shipped under pkg/Hearthstone.  A clean
+         checkout can override this with /p:BepInExRoot=... . -->
+    <BepInExRoot Condition="'$(BepInExRoot)' == '' and Exists('D:\Hearthstone\BepInEx\core\BepInEx.dll')">D:\Hearthstone\BepInEx</BepInExRoot>
+    <BepInExRoot Condition="'$(BepInExRoot)' == ''">$(MSBuildThisFileDirectory)..\pkg\Hearthstone\BepInEx</BepInExRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Shared\ConstructedStopContract.cs" Link="ConstructedStopContract.cs" />
+    <Compile Include="..\Shared\ArenaRunStopContract.cs" Link="ArenaRunStopContract.cs" />
+    <Compile Include="..\Shared\ControllerCommandContract.cs" Link="ControllerCommandContract.cs" />
+    <Reference Include="BepInEx"><HintPath>$(BepInExRoot)\core\BepInEx.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>$(BepInExRoot)\core\0Harmony.dll</HintPath></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\Assembly-CSharp.dll</HintPath></Reference>
+    <Reference Include="Blizzard.T5.Core"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\Blizzard.T5.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Blizzard.T5.ServiceLocator"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\Blizzard.T5.ServiceLocator.dll</HintPath></Reference>
+    <Reference Include="blizzard.bgsclient"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\blizzard.bgsclient.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\UnityEngine.CoreModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\UnityEngine.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath></Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json"><HintPath>D:\Hearthstone\Hearthstone_Data\Managed\Newtonsoft.Json.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

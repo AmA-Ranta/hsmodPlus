@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\ArenaBoxBot\MemoryCleanupPolicy.cs" Link="MemoryCleanupPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\FrameTimingWindow.cs" Link="FrameTimingWindow.cs" />
+    <Compile Include="..\..\ArenaBoxBot\TimeCachedBoolean.cs" Link="TimeCachedBoolean.cs" />
+  </ItemGroup>
+</Project>

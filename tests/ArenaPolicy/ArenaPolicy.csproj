@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Shared\ArenaRunStopContract.cs" Link="ArenaRunStopContract.cs" />
+    <Compile Include="..\..\Shared\ControllerCommandContract.cs" Link="ControllerCommandContract.cs" />
+    <Compile Include="..\..\ArenaBoxBot\BgCompletedGameBudget.cs" Link="BgCompletedGameBudget.cs" />
+    <Compile Include="..\..\ArenaBoxBot\BgPositionProgress.cs" Link="BgPositionProgress.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaRewardStopGate.cs" Link="ArenaRewardStopGate.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ControllerMarkerStopReason.cs" Link="ControllerMarkerStopReason.cs" />
+    <Compile Include="..\..\ArenaBoxBot\OptionEntityFallbackPolicy.cs" Link="OptionEntityFallbackPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\TargetlessAbilityPolicy.cs" Link="TargetlessAbilityPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ConstructedTimeoutRefreshBudget.cs" Link="ConstructedTimeoutRefreshBudget.cs" />
+    <Compile Include="..\..\ArenaBoxBot\PowerQueueProgressWindow.cs" Link="PowerQueueProgressWindow.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ChoicePacketOrder.cs" Link="ChoicePacketOrder.cs" />
+    <Compile Include="..\..\ArenaBoxBot\RecommendationMemberAccess.cs" Link="RecommendationMemberAccess.cs" />
+    <Compile Include="..\..\ArenaBoxBot\OptionExecutionWait.cs" Link="OptionExecutionWait.cs" />
+    <Compile Include="..\..\ArenaBoxBot\MissingRecommendationResponseGate.cs" Link="MissingRecommendationResponseGate.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ResponseActionPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\AssembleFallbackPolicy.cs" Link="AssembleFallbackPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\AssembleRecommendationPolicy.cs" Link="AssembleRecommendationPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\UnsubmittedEndTurnRecoveryPolicy.cs" Link="UnsubmittedEndTurnRecoveryPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\OpponentTimerPolicy.cs" Link="OpponentTimerPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaTicketPurchaseSequence.cs" Link="ArenaTicketPurchaseSequence.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaStopPolicy.cs" Link="ArenaStopPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaRunBudgetPolicy.cs" Link="ArenaRunBudgetPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaRunBudgetRuntime.cs" Link="ArenaRunBudgetRuntime.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaTicketPolicy.cs" Link="ArenaTicketPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaLifecyclePolicy.cs" Link="ArenaLifecyclePolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaSceneRecoveryPolicy.cs" Link="ArenaSceneRecoveryPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaSessionStatePolicy.cs" Link="ArenaSessionStatePolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDisabledRuntimePolicy.cs" Link="ArenaDisabledRuntimePolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaStatsLedger.cs" Link="ArenaStatsLedger.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaGameIdentity.cs" Link="ArenaGameIdentity.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaStatsPersistence.cs" Link="ArenaStatsPersistence.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDraftPacing.cs" Link="ArenaDraftPacing.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaRedraftPolicy.cs" Link="ArenaRedraftPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDeckEditPolicy.cs" Link="ArenaDeckEditPolicy.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDeckDiscardParser.cs" Link="ArenaDeckDiscardParser.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDeckDiscardStream.cs" Link="ArenaDeckDiscardStream.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDraftRecommendationParser.cs" Link="ArenaDraftRecommendationParser.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaDraftRecommendationStream.cs" Link="ArenaDraftRecommendationStream.cs" />
+    <Compile Include="..\..\ArenaController\Control\ArenaStopBoundary.cs" Link="ArenaStopBoundary.cs" />
+    <Compile Include="..\..\ArenaController\Ui\ControllerModeSwitchPolicy.cs" Link="ControllerModeSwitchPolicy.cs" />
+    <Compile Include="..\..\ArenaController\Control\HsModApiModels.cs" Link="HsModApiModels.cs" />
+    <Compile Include="..\..\ArenaController\Control\ControllerSettings.cs" Link="ControllerSettings.cs" />
+    <Compile Include="..\..\ArenaController\Control\ControllerSettingsStore.cs" Link="ControllerSettingsStore.cs" />
+    <Compile Include="..\..\ArenaController\Control\SessionModeBindingStore.cs" Link="SessionModeBindingStore.cs" />
+    <Compile Include="..\..\ArenaController\Control\ControllerLobbyPolicy.cs" Link="ControllerLobbyPolicy.cs" />
+    <Compile Include="..\..\ArenaController\Control\ConstructedStopBoundary.cs" Link="ConstructedStopBoundary.cs" />
+    <Compile Include="..\..\ArenaController\Control\ControllerLaunchRecoveryPolicy.cs" Link="ControllerLaunchRecoveryPolicy.cs" />
+    <Compile Include="..\..\ArenaController\Control\ConstructedDeckSelection.cs" Link="ConstructedDeckSelection.cs" />
+    <Compile Include="..\..\ArenaController\Ui\LiveMatchEvidence.cs" Link="LiveMatchEvidence.cs" />
+    <Compile Include="..\..\ArenaController\Monitor\ClientRecoveryMonitor.cs" Link="ClientRecoveryMonitor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <!-- Unity's stripped Newtonsoft DLL omits CLR interface members and
+           cannot load in .NET 8. Exercise the exact production persistence
+           source against the SDK's complete Newtonsoft 13 here; the plugin
+           still compiles against the game DLL and requires a live read/write. -->
+      <HintPath>$(MSBuildToolsPath)\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <None Update="fixtures\*.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

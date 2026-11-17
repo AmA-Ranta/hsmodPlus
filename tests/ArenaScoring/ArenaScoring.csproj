@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\ArenaBoxBot\ArenaBoxScoreProtocol.cs" Link="ArenaBoxScoreProtocol.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaScoringReadinessGate.cs" Link="ArenaScoringReadinessGate.cs" />
+    <Compile Include="..\..\ArenaBoxBot\ArenaScoringProfileRefresh.cs" Link="ArenaScoringProfileRefresh.cs" />
+    <Reference Include="Newtonsoft.Json"><HintPath>$(MSBuildToolsPath)\Newtonsoft.Json.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

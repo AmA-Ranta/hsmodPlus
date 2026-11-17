@@ -1,0 +1,123 @@
+{
+  "description": "Original onUpdateArenaRecommend captures, no fabricated recommendation; no auth/profile data",
+  "captures": [
+    {
+      "line": "2026-10-26T19:52:16.803 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiSEVST18xMCJ9fSx7ImFjdGlvbk5hbWUiOiJjaG9vc2UiLCJjYXJkIjp7ImNhcmRJZCI6IkhFUk9fMDMifX1dfQ=='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "HERO_10",
+        "HERO_03"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:52:32.227 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQkVfMDkwIn19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "BE_090"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:52:41.261 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiV1dfNDM2In19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "WW_436"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:52:51.265 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiV1dfNDQyIn19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "WW_442"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:52:58.259 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiRU5EXzAxOCJ9fV19'), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "END_018"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:53:05.301 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQ09SRV9TV18wNjYifX1dfQ=='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "CORE_SW_066"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:53:12.716 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQkVfMDg1In19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "BE_085"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:53:19.759 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiVFROXzQ2MCJ9fV19'), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "TTN_460"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:53:27.259 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQkVfNzI2In19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "BE_726"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:53:34.268 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQkVfNzI5In19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "BE_729"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:53:41.762 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiVElNRV8wMjcifX1dfQ=='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "TIME_027"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:53:49.262 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiV1dfOTAxIn19LHsiYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQ09SRV9TV18wNzIifX1dfQ=='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "WW_901",
+        "CORE_SW_072"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:53:56.755 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiREVFUF8wMzIifX1dfQ=='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "DEEP_032"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:54:03.765 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQkVfMDg2In19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "BE_086"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:54:10.766 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiV1dfMDAxIn19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "WW_001"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:54:18.264 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQkVfMDkzIn19LHsiYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiVFROXzQ1OCJ9fV19'), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "BE_093",
+        "TTN_458"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:54:25.263 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQ09SRV9VTERfNzIzIn19LHsiYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiVFROXzc1NCJ9fV19'), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "CORE_ULD_723",
+        "TTN_754"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:54:32.765 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiQkVfMDg1In19XX0='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "BE_085"
+      ]
+    },
+    {
+      "line": "2026-10-26T19:55:27.755 {\"type\": \"capture_debug\", \"pid\": 16080, \"name\": \"onUpdateArenaRecommend\", \"source\": \"upstream\", \"script\": \"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImNob29zZSIsImNhcmQiOnsiY2FyZElkIjoiVElNRV8wMjYifX1dfQ=='), c => c.charCodeAt(0))))\"}",
+      "cardIds": [
+        "TIME_026"
+      ]
+    }
+  ]
+}

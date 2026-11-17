@@ -1,0 +1,815 @@
+﻿## Settings file was created by plugin HsMod v12.1.0.2
+## Plugin GUID: HsMod
+
+[Battlegrounds]
+
+## Silence Bob
+# Setting type: Boolean
+# Default value: false
+Silence Bob = false
+
+## (Test; requires golden card effects enabled) Golden Battlegrounds (does not apply to minions or questlines)
+# Setting type: Boolean
+# Default value: false
+Golden Battlegrounds = false
+
+## Unlock Battlegrounds season ticket permissions (allowing 4 to choose 1 instead of 2 to 1).
+# Setting type: Boolean
+# Default value: false
+Unlock Battlegrounds Season Ticket = false
+
+## Locally unlock all Battlegrounds cosmetics (visual only)
+# Setting type: Boolean
+# Default value: false
+Unlock Battlegrounds Collection = false
+
+## Show an opponent's MMR under their name
+# Setting type: Boolean
+# Default value: true
+Opponent MMR = true
+
+## Log ranked Battlegrounds results
+# Setting type: Boolean
+# Default value: true
+Session Statistics = true
+
+## Automatically squelch all opponents' emotes at match start
+# Setting type: Boolean
+# Default value: false
+Auto-Squelch Emotes = false
+
+[Development]
+
+## Path to Hearthstone process log file (relative to Hearthstone)
+# Setting type: String
+# Default value: 
+Hearthstone Log =
+
+## Path to Hearthstone match log file (relative to Hearthstone); priority given to command line parameters
+# Setting type: String
+# Default value: C:\Program Files (x86)\Hearthstone\BepInEx\HsMod\match.log
+Match Log =
+
+## Automatically quit after x seconds of gameplay (at the end of the match); x<=0 disables this option
+# Setting type: Int64
+# Default value: 0
+Auto Quit Timer = 0
+
+## Automatically refersh quest after x seconds of gameplay (at the end of the match, and process not 0); x<=0 disables this option
+# Setting type: Int64
+# Default value: 0
+Auto Refersh Quest Timer = 0
+
+## Enable simulated pack opening (suggested to restart Hearthstone after changing this option, enabling may lead to abnormal pack info stats)
+# Setting type: Boolean
+# Default value: false
+Simulate Pack Opening = false
+
+## (Buying Karazhan not recommended) Select an adventure to attempt purchase (risk of account ban, use discretion)
+# Setting type: BuyAdventureTemplate
+# Default value: DoNothing
+# Acceptable values: DoNothing, BuyNAX, BuyBRM, BuyLOE, BuyKara
+Buy Adventure = DoNothing
+
+## (Close after finishing, cannot play prologue) Fixes Karazhan Blackwing Rook; also usable to skip adventure stages (risk of account ban, use discretion)
+# Setting type: Boolean
+# Default value: false
+Karazhan Fix = false
+
+## WebServer port, priority given to command line parameters
+# Setting type: Int32
+# Default value: 58744
+# Acceptable value range: From 1 to 65535
+Web Server Port = 58744
+
+## Web page background image
+# Setting type: String
+# Default value: https://imgapi.cn/cos.php
+Web Page Background Image = https://imgapi.cn/cos.php
+
+## Webshell switch
+# Setting type: Boolean
+# Default value: false
+Webshell = false
+
+## Switch to internal mode (requires Hearthstone restart)
+# Setting type: Boolean
+# Default value: false
+Internal Mode = false
+
+[Friends]
+
+## Automatically report opponent for nickname violations, cheating, scripting, or malicious surrender after match ends
+# Setting type: Boolean
+# Default value: false
+Auto Report = false
+
+## (Not yet tested) Display (rotate) opponent's cards in Ob
+# Setting type: Boolean
+# Default value: false
+Spectate Display Cards = false
+
+[Global]
+
+## Enable or disable the plugin (suggested to restart Hearthstone after changing this setting)
+# Setting type: Boolean
+# Default value: true
+HsMod Status = true
+
+## Preferred language of the plugin (requires Hearthstone restart after change, and may invalidate old configuration; remember to back up HsMod.cfg)
+# Setting type: Locale
+# Default value: enUS
+# Acceptable values: enUS, enGB, frFR, deDE, koKR, esES, esMX, ruRU, zhTW, zhCN, itIT, ptBR, plPL, jaJP, thTH, UNKNOWN
+HsMod Language = zhCN
+
+## Configuration run template; when set to DoNothing, no configuration changes are made. Automatically reverts to DoNothing after configuration change
+# Setting type: ConfigTemplate
+# Default value: DoNothing
+# Acceptable values: DoNothing, AwayFromKeyboard, AntiAwayFromKeyboard
+Configuration Template = DoNothing
+
+## Enable or disable shortcuts
+# Setting type: Boolean
+# Default value: false
+Shortcut Status = false
+
+## Enable or disable speed gear
+# Setting type: Boolean
+# Default value: false
+Speed Gear Status = false
+
+## Speed gear multiplier; 1 and 0 are the same rate, negative values slow down
+# Setting type: Single
+# Default value: 0
+# Acceptable value range: From -32 to 32
+Speed Multiplier = 0
+
+## Show FPS information (shortcut: Left Ctrl+P)
+# Setting type: Boolean
+# Default value: false
+Show FPS = false
+
+## Game frame rate setting, -1 means no modification or restores default value (default may be 30)
+# Setting type: Int32
+# Default value: -1
+# Acceptable value range: From -1 to 2333
+Game Frame Rate = -1
+
+## Show a "Mod Settings" button in the game menu (Esc / gear icon) that opens the HsMod settings menu
+# Setting type: Boolean
+# Default value: true
+Mod Settings Button = true
+
+[Hearthstone]
+
+## Enable quick battle mode for Battlegrounds or Mercenary AI
+# Setting type: Boolean
+# Default value: false
+Quick Battle = false
+
+## Display opponent's full Battle.net name; also allows adding current opponent (also allows adding opponent when starting shortcut)
+# Setting type: Boolean
+# Default value: false
+Show Full Name = false
+
+## Force streamer mode off and block the Ctrl+Shift+S toggle (streamer mode replaces player names with hero names)
+# Setting type: Boolean
+# Default value: false
+Block Streamer Mode = false
+
+## Display opponent's ladder rank before Legend
+# Setting type: Boolean
+# Default value: false
+Show Ladder Rank = false
+
+## Predict opponent's cards and provide hints (e.g., choices; may incorrectly identify)
+# Setting type: Boolean
+# Default value: false
+Card Tracker = false
+
+## Show known cards face up (may cause Hearthstone to auto-disconnect and reconnect)
+# Setting type: Boolean
+# Default value: false
+Card Reveal = false
+
+## Skip hero introduction (ShouldSkipMulligan)
+# Setting type: Boolean
+# Default value: false
+Skip Hero Intro = false
+
+## Allow unlimited emotes (minimum delay 1.5s)
+# Setting type: Boolean
+# Default value: false
+Unlimited Emote = false
+
+## Allow thinking emotes
+# Setting type: Boolean
+# Default value: true
+Thinking Emote = true
+
+## Limit on received in-game emotes; blocks opponent emotes if exceeded. Set to 0 to block at start, -1 for no limit (may have minor bugs)
+# Setting type: Int32
+# Default value: -1
+# Acceptable value range: From -1 to 100
+Emote Limit = -1
+
+## Display opponent's card effects (overrides ALL configuration)
+# Setting type: Boolean
+# Default value: true
+Opponent Card Effects = true
+
+## Display alternate artwork in highest card effects (only affects the highest card effects)
+# Setting type: Boolean
+# Default value: true
+Signature Effects = true
+
+## The signature quality is higher than that of diamond，default false
+# Setting type: Boolean
+# Default value: false
+Signature First = false
+
+## When previewing cards with the right click of the collection, play their entry sound effect, default true
+# Setting type: Boolean
+# Default value: true
+Card preview playback sound effects = true
+
+## By default, false is not modified. When enabled, all previous Soy egg paintings will become the new version
+# Setting type: Boolean
+# Default value: true
+Beautify old signature paintings = true
+
+## Force golden card effects
+# Setting type: CardState
+# Default value: Default
+# Acceptable values: Default, OnlyMy, All, Disabled
+Golden Card Effects = Default
+
+## Force highest card effects (priority: diamond, alternate, golden, standard)
+# Setting type: CardState
+# Default value: Default
+# Acceptable values: Default, OnlyMy, All, Disabled
+Highest Card Effects = Default
+
+## Shield MainBox LuckyDraw,default false
+# Setting type: Boolean
+# Default value: false
+Shield MainBox LuckyDraw = false
+
+## Save the card artwork locally and avoid enabling it during battles, as it may consume performance and cause lag. The artwork is stored in the path: \Hearthstone\CardTexturesDownload
+# Setting type: Boolean
+# Default value: false
+Card Art Export = false
+
+[HsMod]
+
+## (!!! DON'T EDIT IT, unless you know what you are doing) HsMod Init Language
+# Setting type: String
+# Default value: UNKNOWN
+HsMod.Init.Language = zhCN
+
+## End-User License Agreement
+# Setting type: Boolean
+# Default value: false
+HsMod.Init.Eula = true
+
+[Mercenary]
+
+## Automatically collect Mercenary rewards (blocks chest)
+# Setting type: Boolean
+# Default value: false
+Auto Collect Rewards = false
+
+## (May have bugs) Allow zooming during Mercenary battle
+# Setting type: Boolean
+# Default value: true
+Allow Zoom = true
+
+## Replace with diamond skin if possible (lower priority than Hearthstone - Highest Card Effects)
+# Setting type: CardState
+# Default value: Default
+# Acceptable values: Default, OnlyMy, All, Disabled
+Diamond Skin Replacement = Default
+
+## Random skin (excludes diamond; Hearthstone - Diamond Card Effects must not be disabled)
+# Setting type: CardState
+# Default value: Default
+# Acceptable values: Default, OnlyMy, All, Disabled
+Random Skin = Default
+
+[Optimization]
+
+## (If unable to open store, try enabling this) Show in-game messages (ads, nerf patches, ladder settlement info, etc.)
+# Setting type: Boolean
+# Default value: true
+In-Game Messages = true
+
+## Show popup messages
+# Setting type: Boolean
+# Default value: true
+Popup Messages = true
+
+## How to respond to popups when popup messages are blocked
+# Setting type: AlertPopupResponse
+# Default value: DONOTHING
+# Acceptable values: OK, CONFIRM, CANCEL, YES, DONOTHING
+Popup Response = DONOTHING
+
+## isOnApplicationFocus
+# Setting type: Boolean
+# Default value: true
+Application Focus = true
+
+## Display task completions, achievement rewards, level-up hints, etc. (may cause lack of reward prompts)
+# Setting type: Boolean
+# Default value: true
+Settlement Display = true
+
+## Auto-open chests from Arena (Duel, Mercenaries, etc.)
+# Setting type: Boolean
+# Default value: false
+Auto Open Boxes = false
+
+## Automatically exit on error
+# Setting type: Boolean
+# Default value: false
+Auto Exit on Error = false
+
+## Show quantity when the collection card count is greater than or equal to 10 (bug when selected)
+# Setting type: Boolean
+# Default value: false
+Show Card Quantity = false
+
+## Show and copy CardID when right-click selecting a card (skin)
+# Setting type: Boolean
+# Default value: false
+Show Card ID = false
+
+## Remove deck share code check
+# Setting type: Boolean
+# Default value: false
+Deck Share Code Check = false
+
+## Allow conceding the deck at 0-0
+# Setting type: Boolean
+# Default value: false
+Show Concede = false
+
+## (Not yet tested) Allow disconnection after a long time without activity (configuration cannot load when starting game)
+# Setting type: Boolean
+# Default value: true
+Allow Disconnect = true
+
+## Avoid accidentally using standard decks in wild mode, and when selecting decks on the deck selection interface, if the standard deck is disabled and a prompt is given while in wild mode, it defaults to true
+# Setting type: Boolean
+# Default value: false
+Check deck valid for gamemode = false
+
+## Disable the card replacement window and automatically replace cards
+# Setting type: Boolean
+# Default value: false
+Auto Replace Cards = false
+
+[Pack Opening]
+
+## Quickly show results when opening packs with space key
+# Setting type: Boolean
+# Default value: false
+Quick Pack Opening = false
+
+## (Use with caution, may have bugs!) Open all packs without distinguishing pack type (based on quick pack opening)
+# Setting type: Boolean
+# Default value: false
+Auto Pack Opening = false
+
+## Auto-disenchant cards with full dust refund during pack opening (automatically disabled at startup, requires manual enabling)
+# Setting type: Boolean
+# Default value: false
+Auto Disenchant = false
+
+[Shortcut]
+
+## Increase gear multiplier by 1, default direction up
+# Setting type: KeyboardShortcut
+# Default value: UpArrow
+Gear Multiplier +1 = UpArrow
+
+## Decrease gear multiplier by 1, default direction down
+# Setting type: KeyboardShortcut
+# Default value: DownArrow
+Gear Multiplier -1 = DownArrow
+
+## Reset to default gear multiplier, default direction left
+# Setting type: KeyboardShortcut
+# Default value: LeftArrow
+Reset Gear Multiplier = LeftArrow
+
+## Set to 4 if gear multiplier is less than 4, otherwise set to 8, default direction right
+# Setting type: KeyboardShortcut
+# Default value: RightArrow
+Max Gear Multiplier = RightArrow
+
+## Simulate disconnect and reconnect, note requires disabling error auto-exit and allowing popup messages, default Left Ctrl+D
+# Setting type: KeyboardShortcut
+# Default value: D + LeftControl
+Simulate Disconnect = D + LeftControl
+
+## Copy in-game opponent's Battle.net ID, default Left Ctrl+C
+# Setting type: KeyboardShortcut
+# Default value: C + LeftControl
+Copy Opponent BattleTag = C + LeftControl
+
+## Copy selected opponent's Battle.net ID in Battlegrounds, default left mouse button
+# Setting type: KeyboardShortcut
+# Default value: Mouse0
+Copy Selected Opponent BattleTag = Mouse0
+
+## Concede, default Left Ctrl+Space
+# Setting type: KeyboardShortcut
+# Default value: Space + LeftControl
+Concede = Space + LeftControl
+
+## End turn or confirm card replacement, default Space
+# Setting type: KeyboardShortcut
+# Default value: Space
+End Turn = Space
+
+## Mute opponent's emotes, default Left Ctrl+Q
+# Setting type: KeyboardShortcut
+# Default value: Q + LeftControl
+Mute Opponent = Q + LeftControl
+
+## Mute or restore volume, default Left Ctrl+S
+# Setting type: KeyboardShortcut
+# Default value: S + LeftControl
+Mute/Restore Volume = S + LeftControl
+
+## Enable/Disable Bob's voice, default Left Ctrl+B
+# Setting type: KeyboardShortcut
+# Default value: B + LeftControl
+Shut Up, Bob = B + LeftControl
+
+## One-click full disenchant of cards (effective only on pack opening or collection screens and requires auto disenchant enabled), default Left Ctrl+Z
+# Setting type: KeyboardShortcut
+# Default value: Z + LeftControl
+Full Disenchant = Z + LeftControl
+
+## Zero-dollor Shopping, there is a risk of being banned, and you must enter the store to use it, default number key 0
+# Setting type: KeyboardShortcut
+# Default value: Alpha0
+Zero-dollor Shopping = Alpha0
+
+## Remove all 'New!' tags (effective only in pack opening and collection screens; in Mercenary mode (buggy, resets after restart), may require re-entering collection after use), default Left Ctrl+R
+# Setting type: KeyboardShortcut
+# Default value: R + LeftControl
+Mark as Read = R + LeftControl
+
+## Show or hide FPS info, default Left Ctrl+P
+# Setting type: KeyboardShortcut
+# Default value: P + LeftControl
+Show/Hide FPS = P + LeftControl
+
+## Refresh the Battlegrounds tavern (shopping phase only), default R
+# Setting type: KeyboardShortcut
+# Default value: R
+BG: Refresh Tavern = R
+
+## Freeze/unfreeze the Battlegrounds tavern (shopping phase only), default F
+# Setting type: KeyboardShortcut
+# Default value: F
+BG: Freeze Tavern = F
+
+## Upgrade the Battlegrounds tavern tier (shopping phase only), default U
+# Setting type: KeyboardShortcut
+# Default value: U
+BG: Upgrade Tavern = U
+
+## Use your hero power in Battlegrounds (shopping phase only; targeted powers enter targeting mode), default H
+# Setting type: KeyboardShortcut
+# Default value: H
+BG: Hero Power = H
+
+## Show/hide your teammate's board in Duos (shopping phase only), default T
+# Setting type: KeyboardShortcut
+# Default value: T
+BG: Teammate Board = T
+
+## Greetings emote, default number key 1
+# Setting type: KeyboardShortcut
+# Default value: Alpha1
+Greetings = Alpha1
+
+## Well Played emote, default number key 2
+# Setting type: KeyboardShortcut
+# Default value: Alpha2
+Well Played = Alpha2
+
+## Thanks emote, default number key 3
+# Setting type: KeyboardShortcut
+# Default value: Alpha3
+Thanks = Alpha3
+
+## Wow emote, default number key 4
+# Setting type: KeyboardShortcut
+# Default value: Alpha4
+Wow = Alpha4
+
+## Oops emote, default number key 5
+# Setting type: KeyboardShortcut
+# Default value: Alpha5
+Oops = Alpha5
+
+## Threaten emote, default number key 6
+# Setting type: KeyboardShortcut
+# Default value: Alpha6
+Threaten = Alpha6
+
+[Simulation]
+
+## (Takes effect after Hearthstone restart) Simulate device for card pack and card back collection
+# Setting type: DevicePreset
+# Default value: Default
+# Acceptable values: Default, iPad, iPhone, Phone, Tablet, HuaweiPhone, Custom
+Device Simulation Template = Default
+
+## Simulated device OS, effective when device simulation template is set to Custom
+# Setting type: OSCategory
+# Default value: PC
+# Acceptable values: PC, Mac, iOS, Android
+Simulated Device OS = PC
+
+## Simulated size (screen type), effective when device simulation template is set to Custom
+# Setting type: ScreenCategory
+# Default value: PC
+# Acceptable values: Phone, MiniTablet, Tablet, PC
+Device Screen Size = PC
+
+## Simulated device model, effective when device simulation template is set to Custom
+# Setting type: String
+# Default value: HsMod
+Device Model = HsMod
+
+## Simulated card pack count
+# Setting type: Int32
+# Default value: 233
+Count = 233
+
+## Simulated card pack type (replaces card pack icon)
+# Setting type: BoosterDbId
+# Default value: GOLDEN_CLASSIC_PACK
+# Acceptable values: INVALID, CLASSIC, GOBLINS_VS_GNOMES, THE_GRAND_TOURNAMENT, OLD_GODS, FIRST_PURCHASE_OLD, SIGNUP_INCENTIVE, MEAN_STREETS, UNGORO, FROZEN_THRONE, GOLDEN_CLASSIC_PACK, KOBOLDS_AND_CATACOMBS, WITCHWOOD, THE_BOOMSDAY_PROJECT, RASTAKHANS_RUMBLE, MAMMOTH_BUNDLE, DALARAN, ULDUM, FIRST_PURCHASE, DRAGONS, BLACK_TEMPLE, SCHOLOMANCE, STANDARD_HUNTER, YEAR_OF_DRAGON, STANDARD_MAGE, THE_BARRENS, STORMWIND, GOLDEN_SCHOLOMANCE, DARKMOON_FAIRE, MERCENARIES, STANDARD_DRUID, STANDARD_PALADIN, STANDARD_WARRIOR, STANDARD_PRIEST, STANDARD_ROGUE, STANDARD_SHAMAN, STANDARD_WARLOCK, STANDARD_DEMONHUNTER, GOLDEN_DARKMOON_FAIRE, ALTERAC_VALLEY, GOLDEN_THE_BARRENS, YEAR_OF_PHOENIX, THE_SUNKEN_CITY, STANDARD_PACK, WILD_PACK, GOLDEN_STANDARD_PACK, REVENDRETH, STORMWIND_GOLDEN, TITANS, RETURN_OF_THE_LICH_KING, ALTERAC_VALLEY_GOLDEN, BATTLE_OF_THE_BANDS, CAVERNS_OF_TIME, PATH_OF_ARTHAS, WILD_WEST, GOLDEN_FESTIVAL_OF_LEGENDS, WHIZBANGS_WORKSHOP, ISLAND_VACATION, WILD_WEST2, SPACE, EMERALD_DREAM, THE_LOST_CITY, TIME_TRAVEL, CATACLYSM, ESCAPEFROM_VIOLET_HOLD
+Type = GOLDEN_CLASSIC_PACK
+
+## Enable random result
+# Setting type: Boolean
+# Default value: false
+Random Result = false
+
+## Randomize rarity (based on random result)
+# Setting type: Boolean
+# Default value: false
+Random Rarity = false
+
+## Randomize quality (based on random result)
+# Setting type: Boolean
+# Default value: false
+Random Quality = false
+
+## Include diamond or alternate art in random quality (based on random quality)
+# Setting type: Boolean
+# Default value: false
+Random Additional Effects = false
+
+## Specify random rarity (based on random rarity)
+# Setting type: CardRarity
+# Default value: LEGENDARY
+# Acceptable values: COMMON, RARE, EPIC, LEGENDARY
+Rarity Type = LEGENDARY
+
+## Specify quality (based on random quality)
+# Setting type: TAG_PREMIUM
+# Default value: GOLDEN
+# Acceptable values: NORMAL, GOLDEN, DIAMOND, SIGNATURE, MAX
+Quality Type = GOLDEN
+
+## Catchup Card Count, random if less than 5
+# Setting type: Int32
+# Default value: -1
+Catchup card num = -1
+
+## Card 1 DbID
+# Setting type: Int32
+# Default value: 71984
+Card 1 = 71984
+
+## Card 1 Premium
+# Setting type: TAG_PREMIUM
+# Default value: GOLDEN
+# Acceptable values: NORMAL, GOLDEN, DIAMOND, SIGNATURE, MAX
+Card 1 Quality = GOLDEN
+
+## Card 2 DbID
+# Setting type: Int32
+# Default value: 71945
+Card 2 = 71945
+
+## Card 2 Premium
+# Setting type: TAG_PREMIUM
+# Default value: GOLDEN
+# Acceptable values: NORMAL, GOLDEN, DIAMOND, SIGNATURE, MAX
+Card 2 Quality = GOLDEN
+
+## Card 3 DbID
+# Setting type: Int32
+# Default value: 73446
+Card 3 = 73446
+
+## Card 3 Premium
+# Setting type: TAG_PREMIUM
+# Default value: GOLDEN
+# Acceptable values: NORMAL, GOLDEN, DIAMOND, SIGNATURE, MAX
+Card 3 Quality = GOLDEN
+
+## Card 4 DbID
+# Setting type: Int32
+# Default value: 71781
+Card 4 = 71781
+
+## Card 4 Premium
+# Setting type: TAG_PREMIUM
+# Default value: GOLDEN
+# Acceptable values: NORMAL, GOLDEN, DIAMOND, SIGNATURE, MAX
+Card 4 Quality = GOLDEN
+
+## Card 5 DbID
+# Setting type: Int32
+# Default value: 67040
+Card 5 = 67040
+
+## Card 5 Premium
+# Setting type: TAG_PREMIUM
+# Default value: GOLDEN
+# Acceptable values: NORMAL, GOLDEN, DIAMOND, SIGNATURE, MAX
+Card 5 Quality = GOLDEN
+
+[Skin]
+
+## When selecting a language other than English, disable the special card face resource loading.
+# Setting type: Boolean
+# Default value: false
+Disable Special Card Faces = false
+
+## Preferred Coin ID, -1 means no modification (real-time update via in-game disconnect simulation)
+# Setting type: Int32
+# Default value: -1
+Coin = -1
+
+## Preferred Card Back ID, -1 means no modification (takes effect immediately)
+# Setting type: Int32
+# Default value: -1
+Card Back = -1
+
+## (Experimental, may freeze in Battlegrounds) Replace battle board, -1 means no modification
+# Setting type: Int32
+# Default value: -1
+Battle Board = -1
+
+## Preferred Battlegrounds Battle Board ID, -1 means no modification
+# Setting type: Int32
+# Default value: -1
+Battlegrounds Battle Board = -1
+
+## Preferred Battlegrounds kill effect ID, -1 means no modification
+# Setting type: Int32
+# Default value: -1
+Battlegrounds Kill Effect = -1
+
+## Preferred Bob ID, -1 means no modification
+# Setting type: Int32
+# Default value: -1
+Bob = -1
+
+## If there is no pet, a virtual pet is generated.
+# Setting type: Boolean
+# Default value: false
+Fake Pet = false
+
+## Preferred Pet ID, -1 means no modification, 0 means hidden
+# Setting type: Int32
+# Default value: -1
+Default Pet = -1
+
+## Preferred opponent Pet ID, -1 means no modification, 0 means hidden
+# Setting type: Int32
+# Default value: -1
+Opponent Pet = -1
+
+## Replace opponent hero skin with default skin if possible
+# Setting type: Boolean
+# Default value: false
+Default Hero = false
+
+## (Use with caution; not recommended for non-AFK. Lower priority than default hero. Typically, load hero skins from HsSkins.cfg, then press F4 to update. If in-game, also requires in-game disconnect simulation) Preferred hero ID, -1 means no modification
+# Setting type: Int32
+# Default value: -1
+Hero = -1
+
+## (Use with caution; not recommended for non-AFK. Lower priority than default hero) Preferred opponent hero ID, -1 means no modification
+# Setting type: Int32
+# Default value: -1
+Opponent Hero = -1
+
+[自动脚本]
+
+## 脚本模式：标准、狂野、休闲、酒馆战棋
+# Setting type: LadderPlayModeChoice
+# Default value: 标准
+# Acceptable values: 标准, 狂野, 休闲, 酒馆战棋
+脚本模式 = 标准
+
+## 要使用的卡组名称；支持输入完整名称或名称中的一部分
+# Setting type: String
+# Default value: 三绿K
+卡组名称 =
+
+## 自动脚本主开关（默认0键）
+# Setting type: KeyboardShortcut
+# Default value: Alpha0
+开启或关闭脚本 = Alpha0
+
+## 循环切换脚本模式：标准→狂野→休闲→酒馆战棋（默认9键）
+# Setting type: KeyboardShortcut
+# Default value: Alpha9
+切换脚本模式 = Alpha9
+
+## 显示或隐藏左上角信息框（默认8键）
+# Setting type: KeyboardShortcut
+# Default value: Alpha8
+左上角显隐开关 = Alpha8
+
+## 左上角信息框显隐
+# Setting type: Boolean
+# Default value: true
+显示信息框 = true
+
+## 仅天梯生效。拟人：推荐从采集时间起等待 0.8～1.5 秒再执行（偶发长考更长）；尽快：跳过反应等待，拿到合法动作立即提交。酒馆战棋固定尽快，不受此项影响。对手可见的选牌/瞄准过程（SendUserUI）两种节奏都会发
+# Setting type: ScriptPaceChoice
+# Default value: 拟人
+# Acceptable values: 拟人, 尽快
+操作节奏 = 拟人
+
+## 自动脚本运行期间屏蔽画面渲染（纯黑屏，仅保留信息框与FPS显示），大幅降低挂机GPU占用；游戏逻辑与帧率不受影响，脚本停止或关闭此项后自动恢复画面
+# Setting type: Boolean
+# Default value: false
+挂机黑屏渲染 = false
+
+## 0表示关闭限制；输入具体数字后，对战达到该局数即关闭脚本
+# Setting type: Int32
+# Default value: 0
+# Acceptable value range: From 0 to 1000
+场数限制 = 0
+
+## 开启后，天梯段位达到传说时自动关闭脚本，不再开始下一场匹配
+# Setting type: Boolean
+# Default value: false
+达到传说自动关闭 = true
+
+## 按所选模式轮换合法卡组；标准只选标准卡组，狂野只选狂野卡组，休闲随机选择合法卡组
+# Setting type: Boolean
+# Default value: false
+自动轮换卡组 = false
+
+## 当前卡组连续失败多少局后切换；0表示不使用此条件
+# Setting type: Int32
+# Default value: 0
+# Acceptable value range: From 0 to 50
+连续失败切换卡组 = 0
+
+## 当前卡组完成多少局后切换；0表示不使用此条件
+# Setting type: Int32
+# Default value: 0
+# Acceptable value range: From 0 to 1000
+卡组完成局数切换 = 0
+
+## 酒馆战棋专用。当前分数达到该值后自动认输并继续匹配，把分数打下来；0表示关闭
+# Setting type: Int32
+# Default value: 0
+# Acceptable value range: From 0 to 30000
+战棋控分分数 = 0
+
+## 开启后，第 4 回合及以后预测胜率低于阈值时自动认输。直连读接口回包；盒子文件读采集器截取的 onUpdateWinrateData
+# Setting type: Boolean
+# Default value: false
+天梯低胜率认输 = false
+
+## 预测胜率低于该百分比时认输；仅「天梯低胜率认输」开启时生效
+# Setting type: Int32
+# Default value: 20
+# Acceptable value range: From 1 to 100
+天梯低胜率认输阈值 = 20
+
+## 盒子文件（默认，需开炉石盒子，采集器读推荐文件）；直连（盒子AI，无需开盒子：需先让盒子运行一次完成鉴权采集，之后直连网易预测接口。天梯走 standard_substep，酒馆走 zq_substep，不含双人）
+# Setting type: BoxAiRecommendSource
+# Default value: 盒子文件
+# Acceptable values: 盒子文件, 直连
+推荐来源 = 直连
+

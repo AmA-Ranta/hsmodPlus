@@ -1,0 +1,10 @@
+{
+  "description": "Actual same-page Box reference A and custom_based B; choose only unique reference A, never combine or fill incomplete B.",
+  "line": "2026-10-07T16:55:51.645 {\"type\":\"capture_debug\",\"pid\":23936,\"name\":\"onUpdateArenaRecommend\",\"source\":\"upstream\",\"script\":\"onUpdateArenaRecommend) !== 'undefined') window.onUpdateArenaRecommend(new TextDecoder('utf-8').decode(Uint8Array.from(atob('eyJzdGF0dXMiOjIsImVycm9yIjoiIiwiZGF0YSI6W3siYWN0aW9uTmFtZSI6ImRpc2NhcmQiLCJ0eXBlIjoicmVmZXJlbmNlIiwiY2FyZCI6W3siY2FyZElkIjoiTUVORF8zMDMifSx7ImNhcmRJZCI6IkVEUl81MzAifSx7ImNhcmRJZCI6IlRMQ185ODcifSx7ImNhcmRJZCI6Ik1FTkRfMzAzIn0seyJjYXJkSWQiOiJFRFJfMDE0In1dfSx7ImFjdGlvbk5hbWUiOiJkaXNjYXJkIiwidHlwZSI6ImN1c3RvbV9iYXNlZCIsImNhcmQiOlt7ImNhcmRJZCI6Ik1FTkRfMzAzIn0seyJjYXJkSWQiOiJUTENfOTg3In0seyJjYXJkSWQiOiJNRU5EXzMwMyJ9LHsiY2FyZElkIjoiRURSXzAxNCJ9XX1dfQ=='), c => c.charCodeAt(0))))\"}",
+  "expectedReferenceCounts": {
+    "MEND_303": 2,
+    "EDR_530": 1,
+    "TLC_987": 1,
+    "EDR_014": 1
+  }
+}

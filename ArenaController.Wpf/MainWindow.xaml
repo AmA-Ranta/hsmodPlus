@@ -1,0 +1,19 @@
+<ui:FluentWindow x:Class="HsmodPlus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        Title="hsmodPlus 中控"
+        Width="1120" Height="850"
+        MinWidth="1000" MinHeight="720"
+        WindowBackdropType="None"
+        ExtendsContentIntoTitleBar="True"
+        WindowStartupLocation="CenterScreen">
+    <Grid x:Name="RootGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="44" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ui:TitleBar x:Name="AppTitleBar" Grid.Row="0" Title="hsmodPlus 中控" />
+        <Grid x:Name="HostRoot" Grid.Row="1" />
+    </Grid>
+</ui:FluentWindow>
